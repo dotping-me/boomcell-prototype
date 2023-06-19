@@ -1,0 +1,51 @@
+body {
+	font-family: 'Courier New', monospace;
+	font-weight: bold;
+	text-align : center;
+}
+
+#grid {
+	width : 400px;
+	height: 400px;
+	border: 10px solid #0B2447;
+	margin: 0 auto;
+
+    display  : flex;
+    flex-wrap: wrap;
+
+    background-color: #EEEEEE;
+}
+
+/* Default hidden cell */
+#grid div {
+	width : 48px;
+	height: 48px;
+	border: 1px solid #0B2447;
+
+	/* text */
+	font-size: 30px;
+
+	display 	   : flex;
+	justify-content: center;
+	align-items    : center;
+}
+
+.R1 {
+	background-color: #00DFA2;
+}
+
+.R2 {
+	background-color: #0079FF;
+}
+
+.R3 {
+	background-color: #F6FA70;
+}
+
+.R4 {
+	background-color: #F29727;
+}
+
+.R5 {
+	background-color: #FF0060;
+}
